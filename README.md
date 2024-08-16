@@ -6,10 +6,14 @@ Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la c
 
 Pour exécuter les tests suivre les étapes ci-dessous:
 1- Initialiser node.js via npm init -y 
-installer Web Driver IO via la commande npm init wdio.
-2- choisir toutes les options par défaut dans le wizard d'installation
-3- ouvrir le fichier wdio.conf.js
-4- à la ligne 126. rajouté l'objet suivant au paramètre reporter         [
+
+2- installer Web Driver IO via la commande npm init wdio.
+
+3- choisir toutes les options par défaut dans le wizard d'installation
+
+4- ouvrir le fichier wdio.conf.js
+
+5- à la ligne 126. rajouté l'objet suivant au paramètre reporter         [
             'allure', {
                 outputDir: 'allure-results'
             }
@@ -22,6 +26,7 @@ installer Web Driver IO via la commande npm init wdio.
         ]
     ],
 
-5- Pour lancer les tests exécuter la commande suivante dans votre terminal: npx wdio run .\wdio.conf.js --spec .\test\specs\loginLogout.spec.js
-6- pour voir le rapport générer par allure lancer la commande suivante dans votre terminal: allure open
+6- Pour lancer les tests exécuter la commande suivante dans votre terminal: npx wdio run .\wdio.conf.js --spec .\test\specs\loginLogout.spec.js
+
+7- pour voir le rapport générer par allure lancer la commande suivante dans votre terminal: allure open
 
