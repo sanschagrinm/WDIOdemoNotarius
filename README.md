@@ -1,10 +1,10 @@
-Démonstration de l'utilisation de la librairie WebDrivier IO pour le test technique de la compagnie Notarius.
+## Démonstration de l'utilisation de la librairie WebDrivier IO pour le test technique de la compagnie Notarius.
 
 Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la connexion et la déconnexion d'un utilisateur standard sur le site https://www.saucedemo.com/. 
 
 *** Ce projet de test fonctionne sur node 18.20. Veuillez-vous assurer que vous utilisez cette version sur votre système
 
-Pour exécuter les tests suivre les étapes ci-dessous:
+### Pour exécuter les tests suivre les étapes ci-dessous:
 1- Initialiser node.js via npm init -y 
 
 2- installer Web Driver IO via la commande npm init wdio.
