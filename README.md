@@ -1,6 +1,6 @@
 ## Démonstration de l'utilisation de la librairie WebDrivier IO pour le test technique de la compagnie Notarius.
 
-Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la connexion et la déconnexion d'un utilisateur standard sur le site https://www.saucedemo.com/. 
+Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la connexion et la déconnexion d'un utilisateur standard sur le site https://www.saucedemo.com/. Ainsi qu'un autre test qui ajoute des items dans le panier et vérifie que le panier contient les bons items
 
 *** Ce projet de test fonctionne sur node 18.20. Veuillez-vous assurer que vous utilisez cette version sur votre système
 
@@ -26,7 +26,11 @@ Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la c
         ]
     ],
 
-6- Pour lancer les tests exécuter la commande suivante dans votre terminal: npx wdio run .\wdio.conf.js --spec .\test\specs\loginLogout.spec.js
+6- Pour lancer le test de login logout exécuter la commande suivante dans votre terminal: npx wdio run .\wdio.conf.js --spec .\test\specs\loginLogout.spec.js
 
-7- pour voir le rapport générer par allure lancer la commande suivante dans votre terminal: allure open
+7- Pour lancer le test du contenu du panier exécuter la commande suivante dans votre terminal: npx wdio run .\wdio.conf.js --spec .\test\specs\verifyCartContent.spec.js
+
+8- pour voir le rapport générer par allure lancer les commandes suivantes dans votre terminal: 
+    - allure generate --clean
+    - allure open
 
