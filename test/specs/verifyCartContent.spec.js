@@ -29,7 +29,7 @@ describe('Demo test verify cart content', async function () {
 
         await homePage.goToCart()
 
-        // cette assertion vérifie que le panier contient les bons items
+        // ces assertions vérifient que le panier contient les bons items
         await cartPage.checkItemLabel(cartPage.firstItem, backpack)
         await cartPage.checkItemLabel(cartPage.secondItem, onesie)
     })
