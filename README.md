@@ -1,4 +1,4 @@
-## Démonstration de l'utilisation de la librairie WebDrivier IO pour le test technique de la compagnie Notarius.
+## Démonstration de l'utilisation de la librairie WebDrivier IO
 
 Ce répertoire contient les fichiers pour exécuter 2 tests qui vont tester la connexion et la déconnexion d'un utilisateur standard sur le site https://www.saucedemo.com/. Ainsi qu'un autre test qui ajoute des items dans le panier et vérifie que le panier contient les bons items
 
